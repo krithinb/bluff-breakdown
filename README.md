@@ -1,73 +1,133 @@
-# Welcome to your Lovable project
+♠️ Poker Strategy Analyzer
 
-## Project info
+Automated analysis of 1,000+ poker hands with solver-backed EV/equity insights delivered through an interactive replayer.
+Designed to provide real-time strategy feedback (<200 ms latency) with personalized leak insights by integrating an LLM coaching layer on top of React Flow and WebSockets.
 
-**URL**: https://lovable.dev/projects/fdbd6bd2-8b87-4ce3-a2e2-c5686a059d18
+👉 View your project on Lovable
 
-## How can I edit this code?
+🌟 Highlights
 
-There are several ways of editing your application.
+⚡ Real-time analysis: Sub-200 ms latency for strategy feedback.
 
-**Use Lovable**
+🤖 LLM-powered coaching: Personalized insights into leaks and decision-making.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fdbd6bd2-8b87-4ce3-a2e2-c5686a059d18) and start prompting.
+🎲 Solver-backed equity: Automated evaluation of hands with EV insights.
 
-Changes made via Lovable will be committed automatically to this repo.
+🎨 Modern UI: Built with React, shadcn-ui, and Tailwind CSS.
 
-**Use your preferred IDE**
+☁️ Cloud-native pipeline: FastAPI, Redis, PostgreSQL, and Docker for scalability.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+ℹ️ Overview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Poker Strategy Analyzer combines cutting-edge solver technology, real-time web feedback, and interactive visualization to help players of all levels understand and improve their game.
 
-Follow these steps:
+Whether you want to replay sessions, spot leaks, or receive instant coaching suggestions, this tool provides a complete analysis pipeline that’s approachable yet powerful.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Built with love using modern web frameworks, cloud-native infrastructure, and AI-powered coaching.
+
+🚀 Getting Started
+
+You can edit and run this project in a few different ways:
+
+Option 1: Use Lovable
+
+Visit your Lovable project.
+
+Start prompting and editing directly in the platform.
+
+All changes are automatically committed to this repo.
+
+Option 2: Use your local IDE
+
+Clone the repository:
+
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Install dependencies (requires Node.js & npm, install via nvm):
+
+npm install
+
+
+Start the dev server with hot reload:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Option 3: Edit directly on GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Navigate to a file, click ✏️ Edit, and commit changes.
 
-**Use GitHub Codespaces**
+Option 4: Use GitHub Codespaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Open your repo, click Code → Codespaces → New codespace.
 
-## What technologies are used for this project?
+Edit files and push changes directly from the browser.
+
+🛠️ Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite
+ – lightning-fast build tooling
 
-## How can I deploy this project?
+TypeScript
+ – type-safe JavaScript
 
-Simply open [Lovable](https://lovable.dev/projects/fdbd6bd2-8b87-4ce3-a2e2-c5686a059d18) and click on Share -> Publish.
+React
+ – modern UI library
 
-## Can I connect a custom domain to my Lovable project?
+shadcn-ui
+ – accessible UI components
 
-Yes, you can!
+Tailwind CSS
+ – utility-first styling
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+FastAPI
+, Redis
+, PostgreSQL
+, Docker
+ – backend & infrastructure
 
+🌍 Deployment
+
+Open your Lovable project.
+
+Click Share → Publish.
+
+That’s it — your app is live!
+
+Custom Domains
+
+Yes!
+Go to Project → Settings → Domains → Connect Domain and follow the prompts.
+📖 Read the guide on custom domains
+
+💻 Development Setup
+
+For contributors and advanced users:
+
+Node.js v18+
+
+npm v9+
+
+Docker (for backend pipeline)
+
+Clone and run as described above. Contributions welcome!
+
+👤 Author
+
+Created by [Your Name / Team Name]
+Passionate about bringing AI-powered insights to poker strategy and making complex analysis accessible to everyone.
+
+💬 Contributing & Feedback
+
+We’d love your input!
+
+💡 Request features or report bugs in Issues
+
+💬 Join discussions in Discussions
+
+🤝 See CONTRIBUTING.md
+ for how to get involved
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
