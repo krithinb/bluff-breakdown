@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        poker: {
+          felt: "hsl(var(--poker-felt))",
+          "felt-light": "hsl(var(--poker-felt-light))",
+          "chip-red": "hsl(var(--poker-chip-red))",
+          "chip-blue": "hsl(var(--poker-chip-blue))",
+          "chip-green": "hsl(var(--poker-chip-green))",
+          "chip-black": "hsl(var(--poker-chip-black))",
+          gold: "hsl(var(--poker-gold))",
+          "card-bg": "hsl(var(--poker-card-bg))",
+          "card-border": "hsl(var(--poker-card-border))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

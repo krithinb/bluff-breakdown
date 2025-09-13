@@ -8,33 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Poker-themed color palette */
+    --background: 120 20% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 120 15% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 120 15% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 47 97% 55%;
+    --secondary-foreground: 120 20% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 120 15% 15%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 0 84% 60%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 120 15% 20%;
+    --input: 120 15% 15%;
+    --ring: 142 76% 36%;
+
+    /* Poker-specific colors */
+    --poker-felt: 120 20% 8%;
+    --poker-felt-light: 120 20% 12%;
+    --poker-chip-red: 0 84% 60%;
+    --poker-chip-blue: 220 91% 55%;
+    --poker-chip-green: 142 76% 36%;
+    --poker-chip-black: 0 0% 15%;
+    --poker-gold: 47 97% 55%;
+    --poker-card-bg: 0 0% 98%;
+    --poker-card-border: 0 0% 80%;
+
+    /* Gradients */
+    --gradient-felt: linear-gradient(135deg, hsl(var(--poker-felt)), hsl(var(--poker-felt-light)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--poker-gold)), hsl(47 97% 45%));
+    --gradient-chip: linear-gradient(135deg, hsl(var(--poker-chip-green)), hsl(142 76% 30%));
+
+    /* Shadows */
+    --shadow-card: 0 4px 12px hsl(0 0% 0% / 0.3);
+    --shadow-chip: 0 2px 8px hsl(0 0% 0% / 0.4);
+    --shadow-glow: 0 0 20px hsl(var(--poker-gold) / 0.3);
 
     --radius: 0.5rem;
 
